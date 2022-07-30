@@ -1,0 +1,11 @@
+.header__upper-bar {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 16px 0;
+	background-color: #fff;
+	width: 90%;
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	justify-items: space-between;
+	align-items: center;
+}

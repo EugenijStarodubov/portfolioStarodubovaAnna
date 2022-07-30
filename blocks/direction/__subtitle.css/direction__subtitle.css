@@ -1,0 +1,25 @@
+.direction__subtitle {
+	font-weight: 400;
+	font-size: 16px;
+	position: relative;
+	max-width: 90%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	grid-row: 3/3;
+	grid-column: 1/1;
+	z-index: 1;
+	align-self: start;
+}
+
+.direction__item:nth-of-type(n + 2) .direction__subtitle {
+	color: #fff;
+}
+
+.direction__item:nth-of-type(n + 3) .direction__subtitle {
+	color: #fff;
+}
+
+.direction__item:nth-of-type(n + 4) .direction__subtitle {
+	color: #000;
+}

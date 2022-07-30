@@ -1,0 +1,40 @@
+.direction__item {
+	position: relative;
+	box-sizing: border-box;
+	min-height: 250px;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: repeat(3, 33.3%);
+	justify-items: center;
+	align-items: center;
+	z-index: 0;
+}
+
+.direction__item:nth-of-type(n)::before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: "";
+	z-index: 1;
+	background-color: #ccc;
+	opacity: 0.7;
+	transition: opacity 0.9s ease-out 0s;
+}
+
+.direction__item:nth-of-type(n + 2)::before {
+	background-color: #f66;
+}
+
+.direction__item:nth-of-type(n + 3)::before {
+	background-color: #000;
+}
+
+.direction__item:nth-of-type(n + 4)::before {
+	background-color: #ccc;
+}
+
+.direction__item:hover::before {
+	opacity: 0.9;
+}

@@ -1,0 +1,28 @@
+.portfolio-name {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	box-sizing: border-box;
+	background-image: url("../../images/heaader__image-bw.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	z-index: 0;
+}
+
+.portfolio-name:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: "";
+	z-index: 0;
+	background-color: rgb(5, 5, 5);
+	opacity: 0.85;
+}

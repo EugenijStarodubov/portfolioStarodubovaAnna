@@ -1,0 +1,8 @@
+.root__main {
+	background-color: #fff;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+}
