@@ -7,3 +7,9 @@
 	grid-template-rows: 1fr;
 	row-gap: 24px;
 }
+
+@media screen and (min-width: 1280px) {
+	.footer__menu-contacts {
+		row-gap: 30px;
+	}
+}

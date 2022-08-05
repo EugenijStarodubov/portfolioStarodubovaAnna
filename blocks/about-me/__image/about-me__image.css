@@ -1,6 +1,24 @@
 .about-me__image {
+	grid-area: photo;
 	box-sizing: border-box;
 	margin: 0 0 24px 0;
 	padding: 50px 0 0 0;
 	width: 100%;
+	object-fit: cover;
+}
+
+@media screen and (min-width: 425px) {
+	.about-me__image {
+		padding: 0;
+		margin-bottom: 0;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.about-me__image {
+		padding: 0;
+		margin-bottom: 0;
+		width: 100%;
+	}
 }

@@ -1,6 +1,10 @@
+* {
+	outline: 1px red solid;
+}
 .root {
 	padding: 0;
 	margin: 0 auto;
-	max-width: 320px;
-	background-color: #606060;
+	width: 100%;
+	max-width: 1280px;
+	background-color: #fff;
 }

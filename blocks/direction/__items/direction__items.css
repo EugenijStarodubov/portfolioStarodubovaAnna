@@ -7,6 +7,30 @@
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(auto-fit, 250px);
-	grid-auto-rows: 250px;
 	row-gap: 16px;
+}
+
+@media screen and (min-width: 425px) {
+	.direction__items {
+		row-gap: 33px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.direction__items {
+		grid-template-columns: repeat(auto-fit, 50%);
+		row-gap: 0;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.direction__items {
+		grid-template-rows: repeat(auto-fit, 300px);
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.direction__items {
+		grid-template-rows: repeat(auto-fill, 455px);
+	}
 }

@@ -1,6 +1,5 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
-@import url("../styles.css");
 @import url("../blocks/root/root.css");
 @import url("../blocks/root/__container/root__container.css");
 @import url("../blocks/link/link.css");
@@ -8,6 +7,7 @@
 @import url("../blocks/title/title.css");
 @import url("../blocks/subtitle/subtitle.css");
 @import url("../blocks/header/header.css");
+@import url("../blocks/root/__header/root__header.css");
 @import url("../blocks/header/__upper-bar/header__upper-bar.css");
 @import url("../blocks/header/__menu/header__menu.css");
 @import url("../blocks/header/__menu-items/header__menu-items.css");
@@ -19,6 +19,7 @@
 @import url("../blocks/about-me/__image/about-me__image.css");
 @import url("../blocks/about-me/__text-content/about-me__text-content.css");
 @import url("../blocks/about-me/__title/about-me__title.css");
+@import url("../blocks/about-me/__title-box/about-me__title-box.css");
 @import url("../blocks/about-me/__subtitle/about-me__subtitle.css");
 @import url("../blocks/about-me/__text/about-me__text.css");
 @import url("../blocks/direction/direction.css");

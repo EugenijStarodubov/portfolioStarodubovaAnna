@@ -23,3 +23,15 @@
 .direction__item:nth-of-type(n + 4) .direction__subtitle {
 	color: #000;
 }
+
+@media screen and (min-width: 840px) {
+	.direction__item > .direction__subtitle {
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.direction__subtitle {
+		font-size: 28px;
+	}
+}

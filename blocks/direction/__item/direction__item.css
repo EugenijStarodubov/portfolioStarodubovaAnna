@@ -1,7 +1,7 @@
 .direction__item {
 	position: relative;
 	box-sizing: border-box;
-	min-height: 250px;
+	min-height: 300px;
 	display: grid;
 	grid-template-columns: 100%;
 	grid-template-rows: repeat(3, 33.3%);
@@ -37,4 +37,27 @@
 
 .direction__item:hover::before {
 	opacity: 0.9;
+}
+
+@media screen and (min-width: 1024px) {
+	.direction__item {
+		min-height: 300px;
+	}
+
+	.direction__item > .direction__subtitle {
+		visibility: hidden;
+		opacity: 0;
+		transition: visibility 0.1s, opacity ease-out 1s;
+	}
+
+	.direction__item:hover > .direction__subtitle {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.direction__item {
+		min-height: 455px;
+	}
 }

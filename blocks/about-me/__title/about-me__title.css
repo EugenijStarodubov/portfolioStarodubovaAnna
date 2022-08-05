@@ -7,5 +7,17 @@
 	text-align: center;
 	color: #000;
 	text-transform: uppercase;
-	line-height: 130%;
+}
+
+@media screen and (min-width: 425px) {
+	.about-me__title {
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.about-me__title {
+		text-align: left;
+		font-size: 38px;
+		line-height: 170%;
+	}
 }

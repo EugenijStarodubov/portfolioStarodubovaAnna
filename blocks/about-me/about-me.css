@@ -1,4 +1,55 @@
 .about-me {
 	box-sizing: border-box;
 	width: 90%;
+	display: grid;
+	grid-template-areas:
+		"photo"
+		"title-box"
+		"paragraph";
+	grid-template-columns: 1fr;
+	row-gap: 24px;
+}
+
+@media screen and (min-width: 425px) {
+	.about-me {
+		max-width: 600px;
+		grid-template-areas:
+			"photo title-box"
+			"paragraph paragraph";
+		grid-template-columns: 40% 1fr;
+		grid-template-rows: repeat (autofill, min-content);
+		column-gap: 24px;
+		row-gap: 24px;
+		align-items: center;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.about-me {
+		max-width: 928px;
+		column-gap: 24px;
+		row-gap: 48px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.about-me {
+		padding: 0 24px;
+		width: 100%;
+		max-width: 1024px;
+		grid-template-areas:
+			"photo title-box"
+			"photo paragraph";
+		align-items: start;
+		row-gap: 24px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.about-me {
+		padding: 0 70px;
+		max-width: 1280px;
+		row-gap: 36px;
+		grid-template-columns: 50% 1fr;
+	}
 }

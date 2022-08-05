@@ -1,7 +1,7 @@
 .direction__title {
 	position: relative;
 	box-sizing: border-box;
-	max-width: 288px;
+	width: 100%;
 	text-align: center;
 	padding: 0;
 	margin: 0;
@@ -17,4 +17,10 @@
 
 .direction__item:nth-of-type(n + 4) .direction__title {
 	color: #000;
+}
+
+@media screen and (min-width: 1280px) {
+	.direction__title {
+		font-size: 70px;
+	}
 }

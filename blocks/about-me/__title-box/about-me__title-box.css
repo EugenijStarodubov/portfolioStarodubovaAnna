@@ -1,0 +1,30 @@
+.about-me__title-box {
+	grid-area: title-box;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid: template rows 1fr;
+	row-gap: 24px;
+	align-self: center;
+}
+
+@media screen and (min-width: 425px) {
+	.about-me__title-box {
+		grid-area: title-box;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid: template rows 1fr;
+		row-gap: 24px;
+		align-self: center;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.about-me__title-box {
+		row-gap: 40px;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.about-me__title-box {
+		row-gap: 36px;
+	}
+}

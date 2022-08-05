@@ -1,11 +1,28 @@
 .header__upper-bar {
 	box-sizing: border-box;
 	margin: 0 auto;
-	padding: 16px 0;
 	background-color: #fff;
-	width: 90%;
+	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(2, 2fr);
 	justify-items: space-between;
 	align-items: center;
+}
+
+@media screen and (min-width: 475px) {
+	.header__upper-bar {
+		padding: 24px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.header__upper-bar {
+		padding: 24px 48px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.header__upper-bar {
+		padding: 20px 70px;
+	}
 }
