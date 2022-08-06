@@ -20,7 +20,7 @@
 			"photo title-box"
 			"paragraph paragraph";
 		grid-template-columns: 40% 1fr;
-		grid-template-rows: repeat (auto-fill, min-content);
+		grid-template-rows: repeat(auto-fill, min-content);
 		column-gap: 24px;
 		row-gap: 24px;
 		align-items: center;
