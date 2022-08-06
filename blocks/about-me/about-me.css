@@ -1,6 +1,8 @@
 .about-me {
 	box-sizing: border-box;
-	width: 90%;
+	padding: 0 16px;
+	margin: 0;
+	width: 100%;
 	display: grid;
 	grid-template-areas:
 		"photo"
@@ -10,14 +12,15 @@
 	row-gap: 24px;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 475px) {
 	.about-me {
-		max-width: 600px;
+		width: 90%;
+		max-width: 475px;
 		grid-template-areas:
 			"photo title-box"
 			"paragraph paragraph";
 		grid-template-columns: 40% 1fr;
-		grid-template-rows: repeat (autofill, min-content);
+		grid-template-rows: repeat (auto-fill, min-content);
 		column-gap: 24px;
 		row-gap: 24px;
 		align-items: center;
@@ -26,7 +29,8 @@
 
 @media screen and (min-width: 768px) {
 	.about-me {
-		max-width: 928px;
+		padding: 0;
+		max-width: 728px;
 		column-gap: 24px;
 		row-gap: 48px;
 	}
@@ -34,13 +38,15 @@
 
 @media screen and (min-width: 1024px) {
 	.about-me {
-		padding: 0 24px;
 		width: 100%;
 		max-width: 1024px;
 		grid-template-areas:
 			"photo title-box"
 			"photo paragraph";
 		align-items: start;
+		max-width: 1024px;
+		grid-template-columns: 50% 1fr;
+		padding: 0 50px;
 		row-gap: 24px;
 	}
 }
@@ -50,6 +56,5 @@
 		padding: 0 70px;
 		max-width: 1280px;
 		row-gap: 36px;
-		grid-template-columns: 50% 1fr;
 	}
 }

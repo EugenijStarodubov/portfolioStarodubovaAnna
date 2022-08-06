@@ -7,6 +7,7 @@
 	grid-template-columns: repeat(2, 2fr);
 	justify-items: space-between;
 	align-items: center;
+	padding: 16px;
 }
 
 @media screen and (min-width: 475px) {
@@ -17,7 +18,13 @@
 
 @media screen and (min-width: 768px) {
 	.header__upper-bar {
-		padding: 24px 48px;
+		padding: 24px 36px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.header__upper-bar {
+		padding: 20px 50px;
 	}
 }
 

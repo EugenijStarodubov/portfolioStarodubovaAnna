@@ -1,7 +1,7 @@
 .footer {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 50px 16px;
+	padding: 48px 16px 16px;
 	width: 100%;
 	background-color: #ccc;
 	display: flex;
@@ -9,22 +9,28 @@
 	align-items: left;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 475px) {
 	.footer {
-		padding: 50px 24px;
+		padding: 50px 24px 24px;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.footer {
-		padding: 50px 48px;
+		padding: 50px 36px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.footer {
+		padding: 75px 50px;
+		flex-direction: row;
+		justify-content: space-between;
 	}
 }
 
 @media screen and (min-width: 1280px) {
 	.footer {
 		padding: 75px 70px;
-		flex-direction: row;
-		justify-content: space-between;
 	}
 }

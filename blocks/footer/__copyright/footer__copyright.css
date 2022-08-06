@@ -10,12 +10,19 @@
 	grid-template-rows: 1fr;
 	column-gap: 16px;
 	align-items: center;
+	align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+	.footer__copyright {
+		font-size: 32px;
+	}
 }
 
 @media screen and (min-width: 1280px) {
 	.footer__copyright {
-		font-size: 36px;
 		align-self: flex-end;
+		font-size: 36px;
 		column-gap: 40px;
 	}
 }

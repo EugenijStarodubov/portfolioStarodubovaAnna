@@ -24,9 +24,22 @@
 	color: #000;
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 475px) {
 	.direction__item > .direction__subtitle {
 		width: 80%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.direction__item > .direction__subtitle {
+		visibility: hidden;
+		opacity: 0;
+		transition: visibility 0.1s, opacity ease-out 1s;
+	}
+
+	.direction__item:hover > .direction__subtitle {
+		visibility: visible;
+		opacity: 1;
 	}
 }
 

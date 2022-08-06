@@ -1,8 +1,8 @@
 .footer__link {
 	display: grid;
-	grid-template-columns: 65px 1fr;
+	grid-template-columns: 45px 1fr;
 	grid-template-rows: 1fr;
-	column-gap: 16px;
+	column-gap: 24px;
 	align-items: center;
 }
 

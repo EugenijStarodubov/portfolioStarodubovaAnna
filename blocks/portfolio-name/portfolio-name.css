@@ -28,14 +28,33 @@
 	opacity: 0.85;
 }
 
+@media screen and (min-width: 625px) {
+	.portfolio-name {
+		min-height: 400px;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	.portfolio-name {
 		min-height: 450px;
 	}
 }
 
+@media screen and (min-width: 850px) {
+	.portfolio-name {
+		min-height: 500px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.portfolio-name {
+		min-height: 620px;
+	}
+}
+
 @media screen and (min-width: 1280px) {
 	.portfolio-name {
+		max-width: 1280px;
 		min-height: 720px;
 	}
 }

@@ -9,6 +9,13 @@
 	line-height: 130%;
 }
 
+@media screen and (min-width: 475px) {
+	.about-me__text {
+		font-size: 18px;
+		line-height: 163%;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	.about-me__text {
 		font-size: 24px;
@@ -18,8 +25,8 @@
 
 @media screen and (min-width: 1024px) {
 	.about-me__text {
-		font-size: 18px;
-		line-height: 150%;
+		font-size: 20px;
+		line-height: 130%;
 	}
 }
 

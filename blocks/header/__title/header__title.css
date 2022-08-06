@@ -1,7 +1,9 @@
 .header__title {
+	box-sizing: border-box;
+	width: 100%;
 	position: relative;
 	z-index: 2;
-	max-width: 85%;
+	padding: 60px 16px;
 	align-self: flex-start;
 }
 
@@ -9,25 +11,41 @@
 	.header__title {
 		margin: 0;
 		padding: 80px 24px;
-		font-size: 44px;
-		line-height: 160%;
+		font-size: 48px;
+		line-height: 163%;
+	}
+}
+
+@media screen and (min-width: 625px) {
+	.header__title {
+		font-size: 56px;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.header__title {
-		padding-left: 80px;
-		font-size: 52px;
-		letter-spacing: 2px;
-		line-height: 163%;
+		padding-left: 36px;
+		font-size: 65px;
+	}
+}
+
+@media screen and (min-width: 850px) {
+	.header__title {
+		padding-left: 36px;
+		font-size: 75px;
 	}
 }
 
 @media screen and (min-width: 1024px) {
 	.header__title {
+		padding-left: 50px;
+		font-size: 80px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.header__title {
 		padding-left: 70px;
 		font-size: 100px;
-		letter-spacing: 2px;
-		line-height: 163%;
 	}
 }

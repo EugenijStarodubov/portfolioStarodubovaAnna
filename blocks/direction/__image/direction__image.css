@@ -1,24 +1,48 @@
 .direction__image {
 	box-sizing: border-box;
+	display: block;
 	padding: 0;
 	margin: 0;
 	width: 100%;
 	height: 100%;
-
+	max-height: 200px;
 	object-fit: fill;
 	grid-row: 1/4;
 	grid-column: 1/1;
 	z-index: 0;
 }
 
+@media screen and (min-width: 475px) {
+	.direction__image {
+		max-height: 250px;
+		height: 100%;
+	}
+}
+
+@media screen and (min-width: 525px) {
+	.direction__image {
+		max-height: 280px;
+		height: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.direction__image {
+		max-height: 300px;
+		height: 100%;
+	}
+}
+
 @media screen and (min-width: 1024px) {
 	.direction__image {
-		min-height: 300px;
+		max-height: 350px;
+		height: 100%;
 	}
 }
 
 @media screen and (min-width: 1280px) {
 	.direction__image {
-		min-height: 455px;
+		max-height: 455px;
+		height: 100%;
 	}
 }

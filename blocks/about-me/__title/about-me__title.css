@@ -9,15 +9,30 @@
 	text-transform: uppercase;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 475px) {
 	.about-me__title {
+		text-align: left;
+		font-size: 30px;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.about-me__title {
-		text-align: left;
 		font-size: 38px;
 		line-height: 170%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.about-me__title {
+		justify-self: flex-start;
+		font-size: 40px;
+		line-height: 100%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.about-me__title {
+		font-size: 48px;
 	}
 }
