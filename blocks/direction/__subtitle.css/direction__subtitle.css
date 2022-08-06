@@ -8,7 +8,7 @@
 	text-align: center;
 	grid-row: 3/3;
 	grid-column: 1/1;
-	z-index: 1;
+	z-index: 2;
 	align-self: start;
 }
 
@@ -25,21 +25,22 @@
 }
 
 @media screen and (min-width: 475px) {
-	.direction__item > .direction__subtitle {
+	.direction__subtitle {
 		width: 80%;
 	}
 }
 
 @media screen and (min-width: 1024px) {
-	.direction__item > .direction__subtitle {
+	.direction__link > .direction__subtitle {
 		visibility: hidden;
 		opacity: 0;
 		transition: visibility 0.1s, opacity ease-out 1s;
 	}
 
-	.direction__item:hover > .direction__subtitle {
+	.direction__link:hover > .direction__subtitle {
 		visibility: visible;
 		opacity: 1;
+		z-index: 4;
 	}
 }
 

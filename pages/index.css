@@ -24,9 +24,10 @@
 @import url("../blocks/about-me/__text/about-me__text.css");
 @import url("../blocks/direction/direction.css");
 @import url("../blocks/root/__direction/root__direction.css");
+@import url("../blocks/direction/__link/direction__link.css");
 @import url("../blocks/direction/__items/direction__items.css");
 @import url("../blocks/direction/__item/direction__item.css");
-@import url("../blocks/direction/__link/direction__link.css");
+
 @import url("../blocks/direction/__image/direction__image.css");
 @import url("../blocks/direction/__title/direction__title.css");
 @import url("../blocks/direction/__subtitle.css/direction__subtitle.css");
