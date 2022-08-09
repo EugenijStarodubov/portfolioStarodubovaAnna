@@ -10,13 +10,14 @@
 	grid-template-rows: min-content;
 	column-gap: 22px;
 	margin: 0;
+	padding: 60px 0 0 0;
 	align-items: center;
 }
 
 @media screen and (min-width: 768px) {
 	.footer__copyright {
 		font-size: 24px;
-		margin-bottom: 60px;
+		padding-top: 60px;
 	}
 }
 
@@ -24,13 +25,11 @@
 	.footer__copyright {
 		font-size: 30px;
 		column-gap: 40px;
-		margin-bottom: 65px;
 	}
 }
 
 @media screen and (min-width: 1280px) {
 	.footer__copyright {
 		font-size: 32px;
-		margin-bottom: 60px;
 	}
 }
