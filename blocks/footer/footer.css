@@ -7,30 +7,32 @@
 	display: flex;
 	flex-direction: column;
 	align-items: start;
+	justify-items: flex-end;
 }
 
 @media screen and (min-width: 475px) {
 	.footer {
-		padding: 50px 24px 24px;
+		padding: 30px 24px 24px;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.footer {
-		padding: 50px 36px;
+		padding: 30px 36px;
 	}
 }
 
 @media screen and (min-width: 1024px) {
 	.footer {
-		padding: 75px 50px;
+		padding: 40px 50px;
 		flex-direction: row;
 		justify-content: space-between;
+		align-items: flex-end;
 	}
 }
 
 @media screen and (min-width: 1280px) {
 	.footer {
-		padding: 75px 70px;
+		padding: 40px 70px;
 	}
 }
