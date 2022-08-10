@@ -1,6 +1,8 @@
 .popups__image {
-	display: block;
-	width: 100%;
-	min-height: 250px;
-	object-fit: cover;
+  display: block;
+  width: 100%;
+  min-height: 250px;
+  object-fit: cover;
+
+  padding-top: 36px;
 }

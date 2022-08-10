@@ -12,7 +12,7 @@
     <div class="root__container">
       <header class="header root__header">
         <div class="header__upper-bar">
-          <img src="./images/Logo.svg" alt="Тишка" class="logo header__logo" />
+          <img src="./images/Logo.svg" alt="Тишка" class="logo" />
           <nav class="menu header__menu">
             <ul class="header__menu-items">
               <li class="header__menu-item">
@@ -193,7 +193,25 @@
       </footer>
     </div>
     <section class="popups">
-      <button class="button popups__close-button" type="button"></button>
+      <div class="popups__header">
+        <button class="button popups__close-button" type="button"></button>
+        <nav class="popups__navigation">
+          <ul class="menu popups__menu">
+            <li class="menu popups__menu-item">
+              <button class="button popups__menu-button" type="button"></button>
+            </li>
+            <li class="menu popups__menu-item">
+              <button class="button popups__menu-button" type="button"></button>
+            </li>
+            <li class="menu popups__menu-item">
+              <button class="button popups__menu-button" type="button"></button>
+            </li>
+            <li class="menu popups__menu-item">
+              <button class="button popups__menu-button" type="button"></button>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <ul class="popups__modal-windows">
         <!--PHOTO-->
         <li class="popups__popup_show_photo">
@@ -204,24 +222,23 @@
                 alt=""
                 class="popups__image"
               />
-              <h2 class="title popups__title">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-                culpa!
-              </h2>
-              <p class="subtitle popups__subtitle">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-                quos eius facere cumque reiciendis eaque quod sit rem ullam est.
-              </p>
-              <p class="text popups__item-technology">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                minima voluptatibus officiis corporis repellendus assumenda
-                laudantium quisquam maiores exercitationem suscipit!
-              </p>
+              <div class="popups__text-content">
+                <h2 class="title popups__title">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                  culpa!
+                </h2>
+                <p class="subtitle popups__subtitle">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                  quos eius facere cumque reiciendis eaque quod sit rem ullam
+                  est.
+                </p>
+                <p class="text popups__item-technology">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  minima voluptatibus officiis corporis repellendus assumenda
+                  laudantium quisquam maiores exercitationem suscipit!
+                </p>
+              </div>
             </li>
-          </ul>
-        </li>
-        <li class="popups__popup_show_photo">
-          <ul class="popups__items">
             <li class="popups__item">
               <img
                 src="./images/popup/popup-photo/[017113].jpg"
@@ -242,10 +259,6 @@
                 laudantium quisquam maiores exercitationem suscipit!
               </p>
             </li>
-          </ul>
-        </li>
-        <li class="popups__popup_show_photo">
-          <ul class="popups__items">
             <li class="popups__item">
               <img
                 src="./images/popup/popup-photo/[017115].jpg"
@@ -266,10 +279,6 @@
                 laudantium quisquam maiores exercitationem suscipit!
               </p>
             </li>
-          </ul>
-        </li>
-        <li class="popups__popup_show_photo">
-          <ul class="popups__items">
             <li class="popups__item">
               <img
                 src="./images/popup/popup-photo/[017117].jpg"
@@ -290,10 +299,6 @@
                 laudantium quisquam maiores exercitationem suscipit!
               </p>
             </li>
-          </ul>
-        </li>
-        <li class="popups__popup_show_photo">
-          <ul class="popups__items">
             <li class="popups__item">
               <img
                 src="./images/popup/popup-photo/[017147].jpg"
@@ -315,6 +320,18 @@
               </p>
             </li>
           </ul>
+        </li>
+        <li class="popups__popup_show_photo">
+          <ul class="popups__items"></ul>
+        </li>
+        <li class="popups__popup_show_photo">
+          <ul class="popups__items"></ul>
+        </li>
+        <li class="popups__popup_show_photo">
+          <ul class="popups__items"></ul>
+        </li>
+        <li class="popups__popup_show_photo">
+          <ul class="popups__items"></ul>
         </li>
         <!--COLLAGE-->
         <li class="popups__popup_show_collage">

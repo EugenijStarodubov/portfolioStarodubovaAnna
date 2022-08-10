@@ -1,5 +1,6 @@
 .popups__modal-windows {
-  padding: 0 16px;
+  padding: 40px 0;
   margin: 0;
   list-style: none;
+  width: 100%;
 }

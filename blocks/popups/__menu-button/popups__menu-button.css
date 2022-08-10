@@ -1,0 +1,26 @@
+.popups__menu-button {
+  min-height: 120px;
+  min-width: 120px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../../../images/popup/photo.svg');
+  background-position: left;
+  border: none;
+  background-color: transparent;
+}
+
+.popups__menu-item:nth-of-type(2) .popups__menu-button {
+  background-image: url('../../../images/popup/collage.svg');
+  background-position: right;
+}
+
+.popups__menu-item:nth-of-type(3) .popups__menu-button {
+  background-image: url('../../../images/popup/polygraphy.svg');
+  background-position: left;
+}
+
+.popups__menu-item:nth-of-type(4) .popups__menu-button {
+  background-image: url('../../../images/popup/logo.svg');
+  background-position: right;
+}
